@@ -1,12 +1,32 @@
-# ***Loan Prediction Analysis & Machine Learning Model***
-This project analyzes a loan prediction dataset to identify the key factors influencing loan approval and builds a machine learning model to predict whether an applicant’s loan will be approved. The workflow includes:
+# 📊 Bank Loan Classification Project  
 
-- Data Exploration & Cleaning – Handling missing values, outliers, and encoding categorical variables.
+## 🎯 Project Objective  
+The goal of this project is to analyze the key factors influencing a bank's decision to approve loan applications.  
+We applied various **Machine Learning models** to predict the likelihood of loan approval based on the dataset.  
 
-- Exploratory Data Analysis (EDA) – Visualizing feature distributions, correlations, and patterns that impact loan approval.
+---
 
-- Feature Engineering – Creating new features and selecting the most important predictors.
+## 🛠️ Technologies Used  
 
-- Model Training & Evaluation – Implementing and comparing multiple models (Logistic Regression, Random Forest, XGBoost, etc.) with performance metrics like accuracy, precision, recall, and F1-score.
+### 🔹 Supervised Machine Learning  
+A range of supervised learning algorithms were implemented for data classification and analysis:  
+- Logistic Regression  
+- SMOTE (Synthetic Minority Over-sampling Technique)  
+- Decision Tree  
+- Random Forest  
+- K-Nearest Neighbors (KNN)  
+- XGBoost  
 
-- Insights & Recommendations – Highlighting the factors that most strongly influence approval rates.
+### 🔹 Graphical User Interface (GUI)  
+An interactive and user-friendly **GUI** was built using **Streamlit** to showcase model predictions and results.  
+
+---
+
+## 🚀 How to Run the Application  
+
+1. Open your terminal (**CMD**, **PowerShell**, or **Git Bash**).  
+2. Navigate to the project directory.  
+3. Run the following command:  
+
+```bash
+streamlit run loan_app.py
